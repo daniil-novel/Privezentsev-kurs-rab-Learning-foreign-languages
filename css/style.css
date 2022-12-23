@@ -156,16 +156,16 @@ body {
 
 .nav__link {
 	position: relative;
-	font-size: 18px;
+	/* font-size: 18px; */
 	color: var(--dark-color);
 }
 
 .nav__link--current {
-	color: var(--accent-color);
+
 }
 
 .nav__link--current::after {
-	content: "";
+	/* content: ""; */
 	position: absolute;
 	left: 0;
 	bottom: 0;
